@@ -141,7 +141,7 @@ int main()
 		case 4:
 			IsEmpty = a.IsEmpty();
 			if (IsEmpty == 1)
-			    cout << "очередь пустf" << endl << endl;
+			    cout << "очередь пуста" << endl << endl;
 		    else 
 			    cout << "там что-то есть" << endl << endl;
 
