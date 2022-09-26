@@ -64,7 +64,7 @@ public:
 				Arr[i] = Arr[i + 1];
 			}
 			Arr[ArraySize / sizeof(Type)]=0;
-            
+
 			TOPIndex--;
 
 			return value;
@@ -141,7 +141,7 @@ int main()
 		case 4:
 			IsEmpty = a.IsEmpty();
 			if (IsEmpty == 1)
-			    cout << "очередь пуст" << endl << endl;
+			    cout << "очередь пустf" << endl << endl;
 		    else 
 			    cout << "там что-то есть" << endl << endl;
 
